@@ -1,2 +1,7 @@
 /bin/
 eclipse/
+.classpath
+.gradle/
+.settings/
+.project
+
