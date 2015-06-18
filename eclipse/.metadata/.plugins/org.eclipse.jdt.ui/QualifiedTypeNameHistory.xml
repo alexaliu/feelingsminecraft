@@ -6,4 +6,6 @@
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.SideOnly"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.encryption.Reference"/>
+<fullyQualifiedTypeName name="java.lang.ref.Reference"/>
 </qualifiedTypeNameHistroy>

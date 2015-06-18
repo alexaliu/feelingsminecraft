@@ -1,0 +1,7 @@
+package com.feelings.feelingsmod;
+
+import net.minecraft.item.Item;
+
+public class ItemFeelingsSword extends Item {
+
+}
