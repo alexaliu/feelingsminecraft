@@ -1,0 +1,7 @@
+package com.feelings.feelingsmod;
+
+import net.minecraft.block.Block;
+
+public class BlockFeelingsStone extends Block {
+
+}
