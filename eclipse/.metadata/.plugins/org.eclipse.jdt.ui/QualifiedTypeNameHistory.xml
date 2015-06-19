@@ -5,7 +5,7 @@
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.SideOnly"/>
-<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.Side"/>
 <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.encryption.Reference"/>
 <fullyQualifiedTypeName name="java.lang.ref.Reference"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.Side"/>
 </qualifiedTypeNameHistroy>
