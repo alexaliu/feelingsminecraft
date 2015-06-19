@@ -1,19 +1,24 @@
-tile.feelings_feelingssmod_feelingsStone.ore.name=Feelings's Stone
-tile.feelings_feelingssmod_feelingsStone.wall.name=Feelings's Wall
+language.name=English
+language.region=US
+language.code=en_US
 
-item.feelings_feelingssmod_feelingsDust.name=Feelings's Dust
-item.feelings_feelingssmod_feelingsIngot.name=Feelings's Ingot
 
-item.feelings_feelingssmod_feelingsPickaxe.name=Feelings's Pickaxe
-item.feelings_feelingssmod_feelingsAxe.name=Feelings's Axe
-item.feelings_feelingssmod_feelingsHoe.name=Feelings's Hoe
-item.feelings_feelingssmod_feelingsShovel.name=Feelings's Shovel
-item.feelings_feelingssmod_feelingsSword.name=Feelings's Sword
+tile.feelings_feelingsmod_feelingsStone.ore.name=Feelings's Stone
+tile.feelings_feelingsmod_feelingsStone.wall.name=Feelings's Wall
 
-item.feelings_feelingssmod_feelingsPaxel.name=Feelings's Paxel
-item.feelings_feelingssmod_feelingsSpax.name=Feelings's Spax
+item.feelings_feelingsmod_feelingsDust.name=Feelings's Dust
+item.feelings_feelingsmod_feelingsIngot.name=Feelings's Ingot
 
-item.feelings_feelingssmod_feelingsHelmet.name=Feelings's Helmet
-item.feelings_feelingssmod_feelingsChestplate.name=Feelings's Chestplate
-item.feelings_feelingssmod_feelingsLeggings.name=Feelings's Leggings
-item.feelings_feelingssmod_feelingsBoots.name=Feelings's Boots
+item.feelings_feelingsmod_feelingsPickaxe.name=Feelings's Pickaxe
+item.feelings_feelingsmod_feelingsAxe.name=Feelings's Axe
+item.feelings_feelingsmod_feelingsHoe.name=Feelings's Hoe
+item.feelings_feelingsmod_feelingsShovel.name=Feelings's Shovel
+item.feelings_feelingsmod_feelingsSword.name=Feelings's Sword
+
+item.feelings_feelingsmod_feelingsPaxel.name=Feelings's Paxel
+item.feelings_feelingsmod_feelingsSpax.name=Feelings's Spax
+
+item.feelings_feelingsmod_feelingsHelmet.name=Feelings's Helmet
+item.feelings_feelingsmod_feelingsChestplate.name=Feelings's Chestplate
+item.feelings_feelingsmod_feelingsLeggings.name=Feelings's Leggings
+item.feelings_feelingsmod_feelingsBoots.name=Feelings's Boots

@@ -76,6 +76,8 @@ public class FeelingsMod
 		if(event.getSide() == Side.CLIENT)
 		{
 			RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
+			
+			//items
 			renderHelper(feelingsDust, "feelingsDust", renderItem);
 			renderHelper(feelingsIngot, "feelingsIngot", renderItem);
 			renderHelper(feelingsPickaxe, "feelingsPickaxe", renderItem);
@@ -83,6 +85,13 @@ public class FeelingsMod
 			renderHelper(feelingsHoe, "feelingsHoe", renderItem);
 			renderHelper(feelingsShovel, "feelingsShovel", renderItem);
 			renderHelper(feelingsSword, "feelingsSword", renderItem);
+			renderHelper(feelingsHelmet, "feelingsHelmet", renderItem);
+			renderHelper(feelingsChest, "feelingsChestplate", renderItem);
+			renderHelper(feelingsLeggings, "feelingsLeggings", renderItem);
+			renderHelper(feelingsBoots, "feelingsBoots", renderItem);
+			
+			//blocks
+			renderHelper(Item.getItemFromBlock(feelingsStone), "feelingsStone", renderItem);
 		}
 	}
 	

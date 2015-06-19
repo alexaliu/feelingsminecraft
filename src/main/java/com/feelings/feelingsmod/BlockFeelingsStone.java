@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class BlockFeelingsStone extends Block
 {
-	private final String name = "feelingsBlock";
+	private final String name = "feelingsStone";
 	public BlockFeelingsStone()
 	{
 		super(Material.rock);
