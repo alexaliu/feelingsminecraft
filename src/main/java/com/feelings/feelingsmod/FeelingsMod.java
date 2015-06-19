@@ -4,6 +4,8 @@ import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.RenderItem;
 import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -92,6 +94,7 @@ public class FeelingsMod
 			
 			//blocks
 			renderHelper(Item.getItemFromBlock(feelingsStone), "feelingsStone", renderItem);
+			//ModelBakery.addVariantName(yourItem, new String[]{"different", "variant", "namesOfModelFiles"}); for metadata 
 		}
 	}
 	
