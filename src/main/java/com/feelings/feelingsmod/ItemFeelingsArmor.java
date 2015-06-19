@@ -5,42 +5,38 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry; 
+import net.minecraft.creativetab.CreativeTabs;
 
 public class ItemFeelingsArmor extends ItemArmor
 {
+	private final String name;
 	public ItemFeelingsArmor(ArmorMaterial material, int armorType, String name)
 	{
 		super(material, 0, armorType);
+		this.name = name;
 		setUnlocalizedName(FeelingsMod.MODID + "_" + name);
+		setCreativeTab(CreativeTabs.tabCombat);
+		GameRegistry.registerItem(this, name);
 	}
 	
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) 
 	{
-		if (stack.getItem() == FeelingsMod.Feelingshelmet || stack.getItem() == FeelingsMod.Feelingschest || stack.getItem() == FeelingsMod.Feelingsboots) 
-		{
-			return FeelingsMod.MODID + ":models/armor/Feelingsarmor1.png";
-		}
-		else if(stack.getItem() == FeelingsMod.Feelingsleggings)
-		{
-			return FeelingsMod.MODID + ":models/armor/Feelingsarmor2.png";
-		}
-		else
-		{
-			System.out.println("Invalid Item");
-			return null;
-		}
+		return FeelingsMod.MODID + ":models/armor/feelingsArmor" + (this.armorType == 2 ? "2" : "1") + ".png";
 	}
 	
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 	{
-		if(itemStack.getItem().getUnlocalizedName() == "Feelingshelmet")
+		if(itemStack.getItem().equals(FeelingsMod.feelingsHelmet) && player.isInWater())
 		{
-			if(player.isInWater())
-			{
-				player.setAir(20);
-			}
+			player.setAir(20);
 		}
+	}
+	
+	public String getName()
+	{
+		return name;
 	}
 }
