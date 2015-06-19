@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "feelingsmod:items/feelingsaxe"
+        "layer0": "feelings_feelingsmod:items/feelingsPickaxe"
     },
     "display": {
         "thirdperson": {
