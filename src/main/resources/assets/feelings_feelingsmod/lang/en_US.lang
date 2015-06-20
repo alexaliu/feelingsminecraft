@@ -3,8 +3,9 @@ language.region=US
 language.code=en_US
 
 
-tile.feelings_feelingsmod_feelingsStone.ore.name=Feelings's Stone
-tile.feelings_feelingsmod_feelingsStone.wall.name=Feelings's Wall
+tile.feelings_feelingsmod_feelingsStone.ore.name=Feelings's Ore
+tile.feelings_feelingsmod_feelingsStone.stone.name=Feelings's Stone
+tile.feelings_feelingsmod_feelingsStone.smooth.name=Smooth Feelings's Stone
 
 item.feelings_feelingsmod_feelingsDust.name=Feelings's Dust
 item.feelings_feelingsmod_feelingsIngot.name=Feelings's Ingot

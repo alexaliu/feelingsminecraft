@@ -1,5 +1,7 @@
 {
     "variants": {
-        "normal": { "model": "feelings_feelingsmod:feelingsStone" }
+        "type=feelingsOre": { "model": "feelings_feelingsmod:feelingsOre"},
+        "type=feelingsStone": { "model": "feelings_feelingsmod:feelingsStone"},
+        "type=smoothFeelingsStone": { "model": "feelings_feelingsmod:smoothFeelingsStone"},
     }
 }

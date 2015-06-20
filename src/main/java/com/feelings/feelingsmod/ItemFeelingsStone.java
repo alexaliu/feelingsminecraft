@@ -9,6 +9,8 @@ public class ItemFeelingsStone extends ItemBlock
 	public ItemFeelingsStone(Block block)
 	{
 		super(block);
+		setMaxDamage(0);
+	    setHasSubtypes(true);
 	}
 	
 	@Override
@@ -16,23 +18,27 @@ public class ItemFeelingsStone extends ItemBlock
 	{
 		return par1;
 	}
+	
 	@Override
 	public String getUnlocalizedName(ItemStack itemstack)
 	{
-		String name = "";
-		switch(itemstack.getItemDamage())
-		{
-		case 0:
-			name = "ore";
-			break;
-		case 1:
-			name = "wall";
-			break;
-		default:
-			System.out.println("Invalid metadata for Block FeelingsStone");
-			name = "broken";
-			break;
-		}
-		return getUnlocalizedName() + "." + name;
+		BlockFeelingsStone.EnumType type = BlockFeelingsStone.EnumType.byMetadata(itemstack.getMetadata());
+	    return super.getUnlocalizedName() + "." + type.getUnlocalizedName();
+	    
+//		String name = "";
+//		switch(itemstack.getItemDamage())
+//		{
+//		case 0:
+//			name = "ore";
+//			break;
+//		case 1:
+//			name = "wall";
+//			break;
+//		default:
+//			System.out.println("Invalid metadata for Block FeelingsStone");
+//			name = "broken";
+//			break;
+//		}
+//		return getUnlocalizedName() + "." + name;
 	}
 }
